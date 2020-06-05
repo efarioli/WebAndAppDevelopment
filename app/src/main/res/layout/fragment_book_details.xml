@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/book_details_title1"
+        android:text="@string/member_area"
+        style="@style/my_headLine1" />
+
+    <TextView
+        android:id="@+id/book_details_title2"
+        style="@style/my_headLine2"
+        android:text="@string/to_be_replaced" />
+
+    <TextView
+        android:id="@+id/book_details_title3"
+        style="@style/my_headLine3"
+        android:text="@string/to_be_replaced" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/item_header_with_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/book" />
+
+            <TextView
+                android:id="@+id/text_view_book_detail_title"
+                style="@style/book_item_el1"
+                android:textColor="@android:color/secondary_text_light"
+                android:text="@string/to_be_replaced" />
+
+            <TextView
+                android:id="@+id/text_view_book_detail_author"
+                style="@style/book_item_el2"
+                android:text="@string/to_be_replaced" />
+
+            <TextView
+                style="@style/book_item_el3"
+                android:id="@+id/text_view_book_detail_isbn"
+                android:text="@string/to_be_replaced" />
+
+            <TextView
+                style="@style/book_item_el3"
+                android:id="@+id/text_view_book_detail_copies"
+                android:text="@string/to_be_replaced" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/copies_item_rec_view"
+
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:padding="4dp"
+        android:paddingBottom="180dp"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/copy_item" />
+
+
+</LinearLayout>

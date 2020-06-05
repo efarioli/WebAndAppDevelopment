@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Library App Demo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="member">Member</string>
+    <string name="librarian">Librarian</string>
+    <string name="lybrary_login">Lybrary Login</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="book">Book</string>
+    <string name="view_details">View Details</string>
+    <string name="borrow">Borrow</string>
+    <string name="number_of_copies_to_add">Number of copies to add</string>
+    <string name="add_copy_ies">Add Copy/ies</string>
+    <string name="reference_only">Reference Only?</string>
+    <string name="loan_history">Loan History</string>
+    <string name="due_date">Due date</string>
+    <string name="returned">Returned</string>
+    <string name="renewals">Renewals</string>
+    <string name="borrowed">Borrowed</string>
+    <string name="number_of_renewals">Number of Renewals</string>
+    <string name="renew">Renew</string>
+    <string name="return_">Return</string>
+    <string name="member_area">Member Area</string>
+    <string name="to_be_replaced">To Be replaced</string>
+    <string name="librarian_area">Librarian Area</string>
+    <string name="current_loans">Current Loans</string>
+    <string name="all_books">All Books</string>
+    <string name="book_details">Book Details</string>
+    <string name="logout">Logout</string>
+    <string name="session">Session</string>
+
+
+</resources>

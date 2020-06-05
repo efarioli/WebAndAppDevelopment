@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/my_headLine1"
+        android:id="@+id/loan_history_title1"
+        android:text="@string/member_area" />
+
+    <TextView
+        style="@style/my_headLine2"
+        android:id="@+id/loan_history_title2"
+        android:text="@string/to_be_replaced" />
+
+    <TextView
+        style="@style/my_headLine3"
+        android:id="@+id/loan_history_title3"
+        android:text="@string/to_be_replaced" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_loan_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:paddingBottom="180dp"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/loan_item" />
+
+
+</LinearLayout>

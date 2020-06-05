@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    >
+
+    <TextView
+        android:id="@+id/view_all_books_title1"
+        style="@style/my_headLine1"
+        android:text="@string/member_area" />
+    <TextView
+        android:id="@+id/view_all_books_title2"
+        style="@style/my_headLine2"
+        android:text="@string/to_be_replaced" />
+    <TextView
+        android:id="@+id/view_all_books_title3"
+        style="@style/my_headLine3"
+        android:text="@string/all_books" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/book_item_rec_view"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:paddingBottom="180dp"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/book_item" />
+
+
+</LinearLayout>

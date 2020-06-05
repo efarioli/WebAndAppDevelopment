@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_current_loans"
+            android:icon="@drawable/ic_local_library"
+            android:title="@string/current_loans" />
+        <item
+            android:id="@+id/nav_view_all_books"
+            android:icon="@drawable/ic_import"
+            android:title="@string/all_books" />
+        <item
+            android:id="@+id/nav_loan_history"
+            android:icon="@drawable/ic_description"
+            android:title="@string/loan_history" />
+    </group>
+
+    <item android:title="@string/session">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logout" />
+        </menu>
+
+    </item>
+
+</menu>
